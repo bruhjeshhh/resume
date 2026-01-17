@@ -1,4 +1,3 @@
-
 \documentclass[a4paper,11pt]{article}
 \usepackage[a4paper,margin=0.7in]{geometry}
 \usepackage{titlesec}
@@ -26,62 +25,48 @@
 
 % ------------------ TECHNICAL SKILLS ------------------
 \section*{TECHNICAL SKILLS}
-\textbf{Languages:} Java, C/C++, Python, Go \\
-\textbf{Web:} HTML, CSS \\
-\textbf{Tools \& Technologies:} SQL, Docker, PostgreSQL, Apache Kafka, Web3.js, Solidity, Ganache, Truffle
+\textbf{Languages:} Go, Java, Python, C\\
+\textbf{Backend \& Databases:} PostgreSQL, MySQL, REST APIs \\
+\textbf{Tools \& Systems:} Docker, Git \\
+
 
 % ------------------ EXPERIENCE ------------------
 \section*{EXPERIENCE}
-\textbf{Data Engineer Intern} \hfill \textit{Apr 2025 – Present} \\
+\textbf{Data Engineer Intern} \hfill \textit{Apr 2025 – Sept 2025} \\
 Amasqis.ai — Remote
 \begin{itemize}[leftmargin=1em]
-    \item Integrated GIS solutions into real estate and finance web applications, improving geospatial visualization and analytics.
-    \item Designed and deployed scalable backend APIs in Go for high-performance data processing.
+    \item Developed REST APIs using FastAPI for an Airbnb-style real estate platform, handling property listings, user management, and search functionality across multiple endpoints
+    \item Integrated geospatial features enabling property owners to pin locations and users to search properties by geographic area using GIS-based mapping services
+    \item Built data processing pipelines in Go to aggregate and transform real estate data for analytics dashboards and internal services
+    
 \end{itemize}
-
 % ------------------ PROJECTS ------------------
 \section*{PROJECTS}
-\textbf{HarvestChain: Blockchain-Based Marketplace for Farmers}
+
+\textbf{RSS Feed Aggregation System (Go, PostgreSQL)}
 \begin{itemize}[leftmargin=1em]
-    \item Developed a decentralized marketplace enabling secure and transparent farmer-to-buyer transactions.
-    \item Designed Solidity smart contracts and integrated them with a web interface using Web3.js.
-    \item Deployed and tested on Ganache using the Truffle framework.
+    \item Designed and built a Go-based RSS aggregation system with PostgreSQL persistence, enabling multiple users to register feeds, follow sources, and consume aggregated posts via a CLI interface.
+    \item Modeled relational schemas for users, feeds, follow relationships, and posts, implementing paginated queries to efficiently handle growing feed data.
+    \item Integrated external RSS sources with robust error handling for malformed feeds, network failures, and duplicate entries during ingestion.
+    \item Structured the application with clear separation between CLI, business logic, and database layers to improve maintainability and extensibility.
 \end{itemize}
 
-\textbf{Pokédex CLI — API-Driven Game Application (Go)}
+\textbf{Pokédex CLI — API-Driven Application (Go)}
 \begin{itemize}[leftmargin=1em]
-    \item Built a command-line application consuming a REST API to explore regions and Pokémon data.
-    \item Implemented probability-based Pokémon capture mechanics and in-game state management.
-    \item Designed HTTP request workflows and handled JSON marshalling/unmarshalling for structured data exchange.
-    \item Implemented robust error handling, and response decoding for reliable API interaction.
+    \item  Built CLI application consuming REST API with structured HTTP handling, JSON marshalling, and error propagation.
+   
 \end{itemize}
-
-
-% ------------------ CERTIFICATIONS ------------------
-\section*{CERTIFICATIONS}
-\begin{itemize}[leftmargin=1em]
-    \item Oracle Cloud Infrastructure 2025 AI Foundations Associate
-    \item Oracle Cloud Infrastructure 2025 Architect Associate
-\end{itemize}
-
-% ------------------ ACHIEVEMENTS ------------------
 \section*{ACHIEVEMENTS}
-\begin{itemize}[leftmargin=1em]
-    \item 6th Place — Sol-VIT Hackathon (Business Optimization Challenge)
-    \item LeetCode Contest Rating: 1750
+\begin{itemize}[leftmargin=1em, itemsep=0pt]
+    \item 6th Place — Sol-VIT Hackathon (Business Optimization Challenge) \item LeetCode Contest Rating: 1750
+    \item Oracle Cloud Infrastructure 2025 AI Foundations \& Architect Associate Certifications
 \end{itemize}
 
-% ------------------ LEADERSHIP ------------------
-\section*{LEADERSHIP \& CLUBS}
-\begin{itemize}[leftmargin=1em]
-    \item Operational Lead — Bashcraft Club (Oct 2024 – Present)
-    \item Operational Lead — AWS Cloud Club (Jun 2024 – Oct 2024)
-\end{itemize}
 
 % ------------------ EDUCATION ------------------
 \section*{EDUCATION}
 \textbf{VIT Bhopal University} \hfill \textit{Sept 2023 – Present} \\
 B.Tech in Computer Science and Engineering \\
-\textit{CGPA: 8.5 (5th Semester)}
+\textit{CGPA: 8.47 (6th Semester)}
 
 \end{document}
